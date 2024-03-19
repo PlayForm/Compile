@@ -3,9 +3,11 @@
 	"version": "0.0.1",
 	"private": false,
 	"scripts": {
+		"Document": "TypeScriptDocument 'Source/**/*.ts'",
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*'"
 	},
 	"devDependencies": {
+		"typescript-document": "0.0.2",
 		"typescript-esbuild": "0.4.3"
 	},
 	"publishConfig": {
