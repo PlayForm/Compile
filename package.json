@@ -7,9 +7,7 @@
 		"prepublishOnly": "Build 'Source/**/*'"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.2"
-	},
-	"optionalDependencies": {
+		"@playform/build": "0.0.2",
 		"@playform/document": "0.0.3"
 	},
 	"publishConfig": {
