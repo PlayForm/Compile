@@ -6,6 +6,8 @@
 	"keywords": [
 		"playform"
 	],
+	"main": "./Target/Integration.js",
+	"types": "./Target/Integration.d.ts",
 	"scripts": {
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
